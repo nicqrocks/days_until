@@ -1,0 +1,6 @@
+#This file is the event configuration file for the days_until script.
+#The file will be a CSV in the format of NAME,YEAR/MONTH/DAY. The
+#values for 'YEAR, 'MONTH', and 'DAY' should be numerical. For
+#example: '2015/06/30' would be the proper formatting.
+
+sand point,2015/08/16
