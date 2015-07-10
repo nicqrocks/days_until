@@ -42,6 +42,8 @@ my %events;
 
 
 
+
+
 #############################################################
 #Get the user's input and calculate the amount of days until
 #the day specified.
@@ -97,6 +99,12 @@ my ($evn_year, $evn_month, $evn_day) = split('/', $event_date);
 #Save the difference in days as a variable.
 my $days_until = Delta_Days($cur_year, $cur_month, $cur_day,
 							$evn_year, $evn_month, $evn_day);
+
+#Print out the difference in days.
+print $days_until;
+
+
+
 
 #############################################################
 #Function to import the events file.
